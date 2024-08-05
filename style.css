@@ -1,0 +1,29 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #181818;
+    color: snow;
+    text-align: center;
+    font-family: Georgia;
+}
+
+#user_photo {
+    border: 1px solid snow;
+}
+
+#user_name {
+    color: whitesmoke;
+}
+
+#content{
+    border: 2px solid gray;
+}
+
+#generateBtn{
+    width: 100px;
+    height: 50px;
+    font-family: Georgia;
+}
