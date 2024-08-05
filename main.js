@@ -12,7 +12,7 @@ function generateUser() {
     let selectedUser = dataObj.results[userIndex];
 
     let userName = document.getElementById("user_name");
-    userName.innerText = `${selectedUser.name.title};`
+    userName.innerText = `${selectedUser.name.first} ${selectedUser.name.last};`
 
     let userAge = document.getElementById("user_age");
     userAge.innerText = `Age: ${selectedUser.dob.age}`;
